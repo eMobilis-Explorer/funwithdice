@@ -20,7 +20,8 @@ var firstName = document.getElementById('fname'); // got the attribute value fro
 
 var mainPlayerName = document.querySelector('.main_player'); // loged and got property textContent
 var guestPlayer = document.querySelector('.guessed_player');
-var guestPlayerName = guestPlayer.innerHTML; //selecting the guest name
+
+// var guestPlayerName = guestPlayer.innerHTML; //selecting the guest name
 
 var winnerClass = document.querySelector('.winner'); // selecting winner h2 to change
 
@@ -207,4 +208,4 @@ rollDice.addEventListener('click', function() {
 
 
 
-console.log(mainPlayerName.textContent);
+// console.log(mainPlayerName.textContent);
