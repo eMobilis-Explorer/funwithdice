@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon-32x32.png">
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&family=Dongle:wght@700&family=Neonderthaw&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Fun n Stuff</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="#">
+        <img src="images/funstuff2.jpg" alt="Fun Stuff Logo" class="logo">
+      </a>
+    </div>
+
+    <ul>
+      <li class="nav_item"><a href="" class="nav_link">Home</a></li>
+      <li class="nav_item"><a href="" class="nav_link">About</a></li>
+      <li class="nav_item"><a href="" class="nav_link">Games</a></li>
+      <li class="nav_item"><a href="" class="nav_link">Download</a></li>
+      <li class="nav_item"><a href="" class="nav_link">Play</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Registration Part -->
+    <section class="myform">
+      <h2>Registration Form</h2>
+      <form action="">
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="" placeholder="First Name" required>
+        <p class="format">What's your name?</p>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value="" placeholder="Last Name" required pattern="[a-zA-Z\u00C0-\u00FF\u0020\u0027\u002D]{2,}">
+        <p class="format">What's your name?</p><br>
+
+        <label for="phone">Mobile Number</label>
+        <input type="text" id="phone" name="phone" value="" placeholder="Mobile Number">
+        <p class="format">Phone number please</p><br>
+
+        <label for="gender">Gender:</label><br>
+
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="">
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="other" value=""><br>
+
+        <label for="fname">Email Address</label>
+        <input type="email" name="email" id="email" value="" placeholder="email" required autocomplete="off">
+        <p class="format">What's your email address? Format x@y.zz</p><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" value="" required autocomplete="off" pattern="^(?=.*[A-Z\u00C0-\u00DF].*)(?=.*[0-9].*)(?=.*[a-z\u00E0-\u00FF].*).{8,}$">
+        <p class="format">Minimum 8 characters, a number, an uppercase letter + lowercase letter</p>
+
+        <button type="submit" id="submit" name="button">Sign Up</button>
+      </form>
+    </section>
+
+    <section class="play_guess">
+      <div class="bg_img">
+        <img src="images/dice_mainpic.jpg" alt="Dice_Unsplash_Pic">
+      </div>
+      <section class="guess_main">
+        <h2 class="winner">Who wins?👏🏾</h2>
+        <div class="dice_main">
+          <div class="dice">
+            <h2 class="main_player">Player</h2>
+            <img src="" alt="Dice Image" class="dice_img img_user">
+          </div>
+          <div class="dice">
+            <h2 class="guessed_player">7 Deadly Sins</h2>
+            <img src="" alt="Dice Image" class="dice_img img_guess">
+          </div>
+        </div>
+        <button type="button" name="button" class="roll">Roll the dice🎲</button>
+      </section>
+    </section>
+  </main>
+
+
+
+
+
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
