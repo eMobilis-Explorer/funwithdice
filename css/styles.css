@@ -370,6 +370,13 @@ label[type=email]::after, label[for=password]::after, label[for=fname]::after, l
     letter-spacing: .1rem;
   }
 
+  .myform button {
+    width: 100%;
+    margin-left: 0;
+    padding: 1rem auto;
+    font-size: 1rem;
+  }
+
   nav ul {
     display: none;
   }
