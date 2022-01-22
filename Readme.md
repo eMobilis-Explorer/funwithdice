@@ -42,10 +42,9 @@ Users should be able to:
 - Above is the laptop design of the site☝🏽
 
 ##### Mobile Design :-
+![](./images/img-mobile.png)
 
-<!-- ![](./images/img-mobile.png) -->
-
-- Will try this later on was fully engrossed with making it work first 🏽
+- Added the mobile screenshot - navbar part still not responsive
 
 ##### Tablet Design :-
 
