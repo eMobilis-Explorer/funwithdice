@@ -364,6 +364,15 @@ label[type=email]::after, label[for=password]::after, label[for=fname]::after, l
     width: 130px;
     height: 130px;
   }
+
+  .dice h2 {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+  }
+
+  nav ul {
+    display: none;
+  }
 }
 
 /* Navigation responsiveness still not done */
