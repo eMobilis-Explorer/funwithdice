@@ -42,7 +42,6 @@ Users should be able to:
 - Above is the laptop design of the site☝🏽
 
 ##### Mobile Design :-
-
 ![](./images/img-mobile.png)
 
 - Added the mobile screenshot - navbar part still not responsive
