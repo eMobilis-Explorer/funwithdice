@@ -78,13 +78,13 @@ rollDice.addEventListener('click', function() {
   let pride1 = "Pride's got nothing on you 🤜🏽";
   let pride2 = "They say pride comes before ... 🍂";
 
-  let greed1 = "Show our government your ways🙏🏾";
+  let greed1 = "Go save our politicians 👀🙏🏾";
   let greed2 = "How's your campaign going😏";
 
   let love = "Love's fair n conquers all 👏🏾 Its a draw";
 
   let anger1 = "What you using?🤔 give some to the world😉";
-  let anger2 = "Hey you😡... chill😮‍💨";
+  let anger2 = "Anger wins!!😡 ... chill😮‍💨";
 
   let lust1 = "👏🏾Your probably one in a 10000";
   let lust2 = "Lust wins 🤤";

@@ -183,7 +183,7 @@ label[type=email]::after, label[for=password]::after, label[for=fname]::after, l
 
 .play_guess .bg_img {
   position: relative;
-  /* height: 100vh; */
+  /* height: auto; */
 }
 
 .bg_img img {
@@ -205,6 +205,7 @@ label[type=email]::after, label[for=password]::after, label[for=fname]::after, l
 }
 
 .guess_main .winner {
+  /* font-family: 'Mochiy Pop P One', sans-serif; */
   font-size: 5rem;
   letter-spacing: .5rem;
   color: #EA5C2B;
@@ -265,12 +266,104 @@ label[type=email]::after, label[for=password]::after, label[for=fname]::after, l
   box-shadow: 0 4px 2px #35589A;
 }
 
+@media (max-width:1522px) {
+  .bg_img img {
+    height: 765px;
+  }
+}
+
 @media (max-width:1064px) {
+
+  /* Bringing the game to the top and form down below */
   main {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .play_guess {
     width: 100%;
+    position: relative;
+  }
+
+  /* Adding message for registration */
+  .play_guess::before {
+    content: 'Register down below 👇🏾';
+    position: absolute;
+    top: 2rem;
+    left: 35vw;
+    font-size: 1.5rem;
+    background: #35589A;
+    padding: 0 .5rem;
+  }
+
+  .guess_main .roll {
+    /* margin-bottom: 2rem; */
+  }
+
+  /* Changing the form */
+  .myform {
+    width: 80%;
+    max-width: 430px;
+  }
+
+  /* Changing text sizes */
+}
+
+@media (max-width:766px) {
+  .guess_main .winner {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 2rem !important;
+    /* color: #EA5C2B !important; */
+    text-shadow: 2px 3px 2px #35589A;
+    /* background: #F0ECE3; */
+    padding: .2rem .7rem;
+    border-radius: 3px;
+  }
+
+  /* Sign up button looks a little big */
+  .myform button {
+    font-family: var(--shintlight);
   }
 }
+
+@media (max-width:498px) {
+  .play_guess::before {
+    left: 25vw;
+  }
+
+  .guess_main .winner {
+    /* font-family: var(--shintlight); */
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    color: #EA5C2B !important;
+    text-shadow: 1px 2px 1px #F0ECE3;
+  }
+
+  .myform button {
+    width: 80%;
+    margin-left: 1.5rem;
+  }
+
+  .myform h2 {
+    font-family: 'Merriweather', serif;
+  }
+}
+
+@media (max-width:424px) {
+  .dice_main {
+    width: 90%;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  .dice .main_player::after {
+    font-size: 4.5rem;
+    right: -71px;
+  }
+
+  .dice .dice_img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Navigation responsiveness still not done */
